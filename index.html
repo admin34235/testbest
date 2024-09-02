@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulk Link Paster</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            position: relative;
+        }
+        .hidden {
+            display: none;
+        }
+        #icon-container {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            cursor: pointer;
+        }
+        #icon {
+            font-size: 32px;
+            color: #007bff;
+        }
+        #password-container {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        #buttons-container {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+        #link-area-container {
+            margin-top: 20px;
+        }
+        textarea {
+            width: 100%;
+            box-sizing: border-box;
+        }
+        button {
+            margin: 5px 0;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        @media (max-width: 600px) {
+            textarea {
+                width: 100%;
+            }
+            button {
+                font-size: 14px;
+                padding: 8px;
+            }
+        }
+        #title-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #down-arrow {
+            font-size: 24px;
+            color: #007bff;
+            display: block;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="title-container">
+        <h1>TANYA SHARMA FOLLOW ME HERE</h1>
+        <div id="down-arrow">⬇️</div>
+    </div>
+
+    <div id="icon-container">
+        <div id="icon">🔒</div>
+    </div>
+
+    <div id="password-container" class="hidden">
+        <label for="password">Enter Password:</label>
+        <input type="password" id="password">
+        <button onclick="checkPassword()">Submit</button>
+        <p id="error-message" class="hidden" style="color: red;">Incorrect password. Please try again.</p>
+    </div>
+
+    <div id="buttons-container">
+        <!-- 25 buttons generated directly in HTML -->
+        <button onclick="window.open('https://1024terabox.com/s/1IE78bm5_ATHkb292RlvQxw', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/1IkIBk5q-wvpm_kBNw38fAA', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/12hbw7ygduAfrmpUV1g49_g', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/1vkp21hbY7ZylNlk7k-C8Ig', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/1FMTlaAvC0Y2QZYvvcN1sFQ', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/16GnlEs-9dhkrgCaSSM-ZNg', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/1fyQZNnAGKLWwnasXVqJOJQ', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/10AZiiYwgTXkidgbqMWDTGQ', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/1aNlrPokPoY6BxbjlDFRUlA', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/1eHclV_uLZVbGdo-wPwvdjw', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/1xprZqd11J9mMIKA9tO94sg', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/1WGoWSieVotJe7uxAPQHmaw', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/19GU6_yPI1D_B-uaqBmzf3g', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/1nNc5ViYonFDLte00K8ZaUw', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/1qoLPFMfq0dp6YHhmOCsOCA', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/1HVHatvnoWS4bpl0J0MtPwA', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/14x5nJ3qDjgqIqltVb3doCQ', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/12ghmOqLwPFyRZgUu02nokA', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/1dyNMSDoC4J9m5GlxfpzpJA', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/1TPI847WgeRTY4MpQfG1EtQ', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/1yCouXrWJuNY-ho9HPeM6vg', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/17nXR345MQ46F55wCcQJQzA', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/1oLDKTqHeBeSEjO1kLbng2w', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/1ci4akWzqpIvQgGGpPWaxEQ', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/1Xg2G0mX-68-DL2-ndCOsyA', '_blank')">Click Here</button>
+    </div>
+
+    <div id="main-content" class="hidden">
+        <div id="link-area-container">
+            <textarea id="link-area" rows="10"></textarea>
+            <br>
+            <button onclick="generateButtons()">Generate Buttons</button>
+        </div>
+    </div>
+
+    <script>
+        const correctPassword = "7463"; 
+        let clickCount = 0; 
+        let passwordPromptShown = false; 
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const icon = document.getElementById('icon');
+            icon.addEventListener('click', handleIconClick);
+        });
+
+        function handleIconClick() {
+            if (!passwordPromptShown) {
+                clickCount++;
+                
+                if (clickCount === 10) {
+                    showPasswordPrompt();
+                    clickCount = 0;
+                }
+            }
+        }
+
+        function showPasswordPrompt() {
+            const passwordContainer = document.getElementById('password-container');
+            const passwordInput = document.getElementById('password');
+            passwordContainer.classList.remove('hidden');
+            passwordInput.value = ''; 
+            passwordPromptShown = true; 
+        }
+
+        function checkPassword() {
+            const enteredPassword = document.getElementById('password').value;
+            const errorMessage = document.getElementById('error-message');
+            const passwordContainer = document.getElementById('password-container');
+            const mainContent = document.getElementById('main-content');
+
+            if (enteredPassword === correctPassword) {
+                passwordContainer.classList.add('hidden');
+                mainContent.classList.remove('hidden'); 
+                passwordPromptShown = false; 
+            } else {
+                errorMessage.classList.remove('hidden');
+            }
+        }
+
+        function generateButtonsHere’s the corrected HTML code that includes all 25 preset links directly in the buttons:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulk Link Paster</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            position: relative;
+        }
+        .hidden {
+            display: none;
+        }
+        #icon-container {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            cursor: pointer;
+        }
+        #icon {
+            font-size: 32px;
+            color: #007bff;
+        }
+        #password-container {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        #buttons-container {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+        textarea {
+            width: 100%;
+            box-sizing: border-box;
+        }
+        button {
+            margin: 5px 0;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        #title-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #down-arrow {
+            font-size: 24px;
+            color: #007bff;
+            display: block;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="title-container">
+        <h1>TANYA SHARMA FOLLOW ME HERE</h1>
+        <div id="down-arrow">⬇️</div>
+    </div>
+
+    <div id="icon-container">
+        <div id="icon">🔒</div>
+    </div>
+
+    <div id="password-container" class="hidden">
+        <label for="password">Enter Password:</label>
+        <input type="password" id="password">
+        <button onclick="checkPassword()">Submit</button>
+        <p id="error-message" class="hidden" style="color: red;">Incorrect password. Please try again.</p>
+    </div>
+
+    <div id="buttons-container">
+        <button onclick="window.open('https://1024terabox.com/s/1IE78bm5_ATHkb292RlvQxw', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/1IkIBk5q-wvpm_kBNw38fAA', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/12hbw7ygduAfrmpUV1g49_g', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/1vkp21hbY7ZylNlk7k-C8Ig', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/1FMTlaAvC0Y2QZYvvcN1sFQ', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/16GnlEs-9dhkrgCaSSM-ZNg', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/1fyQZNnAGKLWwnasXVqJOJQ', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/10AZiiYwgTXkidgbqMWDTGQ', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/1aNlrPokPoY6BxbjlDFRUlA', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/1eHclV_uLZVbGdo-wPwvdjw', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/1xprZqd11J9mMIKA9tO94sg', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/1WGoWSieVotJe7uxAPQHmaw', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/19GU6_yPI1D_B-uaqBmzf3g', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/1nNc5ViYonFDLte00K8ZaUw', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/1qoLPFMfq0dp6YHhmOCsOCA', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/1HVHatvnoWS4bpl0J0MtPwA', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/14x5nJ3qDjgqIqltVb3doCQ', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/12ghmOqLwPFyRZgUu02nokA', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/1dyNMSDoC4J9m5GlxfpzpJA', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/1TPI847WgeRTY4MpQfG1EtQ', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/1yCouXrWJuNY-ho9HPeM6vg', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/17nXR345MQ46F55wCcQJQzA', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/1oLDKTqHeBeSEjO1kLbng2w', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/1ci4akWzqpIvQgGGpPWaxEQ', '_blank')">Click Here</button>
+        <button onclick="window.open('https://1024terabox.com/s/1Xg2G0mX-68-DL2-ndCOsyA', '_blank')">Click Here</button>
+    </div>
+
+    <script>
+        const correctPassword = "7463"; 
+        let clickCount = 0; 
+        let passwordPromptShown = false; 
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const icon = document.getElementById('icon');
+            icon.addEventListener('click', handleIconClick);
+        });
+
+        function handleIconClick() {
+            if (!passwordPromptShown) {
+                clickCount++;
+                
+                if (clickCount === 10) {
+                    showPasswordPrompt();
+                    clickCount = 0;
+                }
+            }
+        }
+
+        function showPasswordPrompt() {
+            const passwordContainer = document.getElementById('password-container');
+            const passwordInput = document.getElementById('password');
+            passwordContainer.classList.remove('hidden');
+            passwordInput.value = ''; 
+            passwordPromptShown = true; 
+        }
+
+        function checkPassword() {
+            const enteredPassword = document.getElementById('password').value;
+            const errorMessage = document.getElementById('error-message');
+            const passwordContainer = document.getElementById('password-container');
+            const mainContent = document.getElementById('main-content');
+
+            if (enteredPassword === correctPassword) {
+                passwordContainer.classList.add('hidden');
+                mainContent.classList.remove('hidden'); 
+                passwordPromptShown = false; 
+            } else {
+                errorMessage.classList.remove('hidden');
+            }
+        }
+    </script>
+</body>
+</html>
